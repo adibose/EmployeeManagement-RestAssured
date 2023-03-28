@@ -1,0 +1,21 @@
+{
+"favFoods": {
+"lunch": "rice",
+"breakfast": "idly",
+"dinner": [
+"roti",
+"chicken"
+]
+},
+"jobs": [
+"tester",
+"trainer"
+],
+"last_name": "Maggio",
+"id": "number",
+"first_name": "fname",
+"email": [
+"ardella.gislason@yahoo.com",
+"antone.howell@yahoo.com"
+]
+}

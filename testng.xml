@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test parallel="methods" thread-count="4" name="C:/Users/shila/eclipse-workspace/EmployeeManagement">
+        <classes>
+            <class name="com.pab.tests.GetPosts">
+                <methods>
+                    <include name="createEmployee"/>
+                    <include name="postRequestUsingExternalFile"/>
+                </methods>
+            </class>
+            <class name="com.pab.tests.GetTests">
+                <methods>
+                    <include name="getEmployeeDetails"/>
+                    <include name="getSingleEmployeeDetails"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
